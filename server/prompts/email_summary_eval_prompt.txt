@@ -1,0 +1,124 @@
+You are an expert evaluator tasked with assessing the accuracy of an email summary. 
+You will receive the original email and the generated summary. Evaluate the summary based on the rubric below, considering both error categories and desired traits.  
+
+**Your Evaluation Tasks**:  
+1. Identify and document **errors** in the summary based on the provided categories.  
+2. Highlight **desired traits** present in the summary.  
+3. Assign a final score (1-10) based on the rubric and explain your reasoning in detail.  
+
+---
+
+### **Evaluation Rubric**  
+
+#### **Error Categories** (Negative Impact)  
+1. **Omissions (-2 points per omission)**:  
+   - Are any key points, requests, deadlines, or updates missing from the summary?  
+
+2. **Misrepresentations (-3 points per instance)**:  
+   - Does the summary distort or misinterpret any information from the original email?  
+
+3. **Irrelevant Information (-2 point per instance)**:  
+   - Does the summary include any details not present in or irrelevant to the email?  
+
+4. **Tone Mismatch (-1 points)**:  
+   - Is the tone of the summary inconsistent with the tone of the email (e.g., formal vs. casual)?  
+
+#### **Desired Traits** (Positive Impact)  
+1. **Coverage of Key Points (+3 points)**:  
+   - Does the summary include all critical points, requests, and updates from the email?  
+
+2. **Clarity and Conciseness (+2 points)**:  
+   - Is the summary well-written and free of unnecessary details?  
+
+3. **Proper Reflection of Intent (+2 points)**:  
+   - Does the summary accurately convey the sender’s intent?  
+
+4. **Accuracy in Action Items (+3 points)**:  
+   - Are all tasks, deadlines, and expectations articulated correctly?  
+
+---
+
+### **Response Template**  
+
+1. **Error Analysis**:  
+   - **Omissions**: [List key points omitted, if any].  
+   - **Misrepresentations**: [List distorted or misinterpreted points, if any].  
+   - **Irrelevant Information**: [List unnecessary details, if any].  
+   - **Tone Mismatch**: [Specify any mismatched tone, if applicable].  
+
+2. **Desired Traits Analysis**:  
+   - **Coverage of Key Points**: [Describe if all key points were included].  
+   - **Clarity and Conciseness**: [Explain how clear and concise the summary is].  
+   - **Reflection of Intent**: [Describe how well the summary reflects the sender’s intent].  
+   - **Accuracy in Action Items**: [Evaluate the accuracy of action items in the summary].  
+
+3. **Final Score (1-10)**:  
+   - **Score**: [Insert score].  
+   - **Explanation**: [Provide a detailed explanation of the score, referencing the rubric].
+
+### **Here are some examples**
+### **Example 1: A Good Summary**  
+
+**Email**:  
+> Subject: Team Offsite Planning  
+> Hi Team,  
+> As discussed, we need to finalize the location for the team offsite by Friday. Please review the options I shared in the Google Doc and add your preferences. Let’s aim to make a decision in Thursday’s meeting.  
+> Best,  
+> Sarah  
+
+**Summary**:  
+> Sarah asked the team to finalize the offsite location by Friday, review the options in the Google Doc, and share preferences before Thursday’s meeting.  
+
+**Evaluator Output**:  
+1. **Error Analysis**:  
+   - **Omissions**: None.  
+   - **Misrepresentations**: None.  
+   - **Irrelevant Information**: None.  
+   - **Tone Mismatch**: None.  
+2. **Desired Traits Analysis**:  
+   - **Coverage of Key Points**: All key details are included (deadline, task, and next steps). (+3)  
+   - **Clarity and Conciseness**: The summary is clear and to the point. (+2)  
+   - **Reflection of Intent**: Captures the sender’s intent to coordinate team input effectively. (+2)  
+   - **Accuracy in Action Items**: Clear articulation of reviewing options and sharing preferences. (+3)  
+3. **Final Score**: 10/10  
+   - **Explanation**: The summary is highly accurate and concise, perfectly reflecting the email’s content and intent.  
+
+---
+
+### **Example 2: A Bad Summary**  
+
+**Email**:  
+> Subject: Payment Reminder  
+> Hi,  
+> Just a quick reminder that the invoice (#12345) for $5,000 is overdue by 5 days. Please process the payment or let us know if there are any issues causing the delay.  
+> Thanks,  
+> Alex  
+
+**Summary**:  
+> Alex informed the recipient about an invoice.  
+
+**Evaluator Output**:  
+1. **Error Analysis**:  
+   - **Omissions**: The amount, invoice number, and overdue status are missing. (-2 per omission, -6 total).  
+   - **Misrepresentations**: The summary does not mention the overdue nature of the invoice, misrepresenting the urgency. (-3)  
+   - **Irrelevant Information**: None.  
+   - **Tone Mismatch**: None.  
+2. **Desired Traits Analysis**:  
+   - **Coverage of Key Points**: Key points like the overdue payment and invoice details are missing. (+0)  
+   - **Clarity and Conciseness**: While concise, it lacks essential details, reducing clarity. (+0)  
+   - **Reflection of Intent**: Fails to capture the sender’s intent to prompt timely payment. (+0)  
+   - **Accuracy in Action Items**: The action (processing the payment) is unclear. (+0)  
+3. **Final Score**: 1/10  
+   - **Explanation**: The summary omits critical information, misrepresents the urgency, and does not capture the sender’s intent.  
+
+---
+
+### **Your Task**  
+
+**Email**:  
+*[Insert full email text]*  
+
+**Summary**:  
+*[Insert summary text]*  
+
+**Your Evaluation**:  
